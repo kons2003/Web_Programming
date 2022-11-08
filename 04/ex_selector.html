@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>셀렉터 만들기</title>
+        
+        <style>
+          h3:first-letter { color:red; }
+          li:hover { background:yellowgreen; }
+          h3, li { color:brown; }
+          body.main { color:blueviolet; }
+          li.main { color:hotpink; }
+          div.warning { color:red; }
+          div.warning:active { background:black;}
+          li#list { background-color:mistyrose; }
+          div > strong { background:dodgerblue; }
+          ul strong { color:dodgerblue; }
+          li[id=l3] { color:lightcoral; }
+        </style>
+    </head>
+    <body class="main">
+        <h3>Web Programing</h3>
+        <hr>
+        <div>
+          <div>2022년 2학기 <strong>학습 내용</strong></div>
+          <ul>
+            <li id="l1">HTML5</li>
+            <li id="l2"><strong>CSS3</strong></li>
+            <li id="l3">Javascript</li>
+          </ul>
+          <div class="warning" id="list">60점 이하는 F!</div>
+        </div>
+    </body>
+</html>

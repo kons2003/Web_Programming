@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script>
+            function over(obj) {
+              obj.src="media/banana.png";
+            }
+            function out(obj) {
+              obj.src="media/apple.png";
+            }
+        </script>
+    </head>
+    <body>
+        <img src="media/apple.png" 
+        onmouseover="over(this)"
+        onmouseout="out(this)">
+    </body>
+</html>

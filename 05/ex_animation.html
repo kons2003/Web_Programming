@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>애니메이션</title>
+        <style>
+            @keyframes textColorAnimation {
+              0% { color:blue; }
+              30% { color:green; }
+              100% { color:red; }
+            }
+
+            span {
+              animation-name:textColorAnimation;
+              animation-duration: 5s;
+              animation-iteration-count:3;
+            }
+
+            p {
+              animation-name: textColorAnimation;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <span>span</span> 텍스트를 무한 반복합니다.<br>
+        <p>p 태그 영역 애니메이션</p>
+    </body>
+</html>

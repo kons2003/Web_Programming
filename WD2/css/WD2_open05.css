@@ -1,0 +1,52 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+header {
+  float: left;
+  width: 100%;
+  height: 20%;
+  background: yellow;
+}
+
+nav {
+  float: left;
+  width: 10%;
+  height: 72%;
+  background: orange;
+}
+
+section {
+  float: left;
+  width: 90%;
+  height: 72%;
+  background: skyblue;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  height: 8%;
+  background: violet;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+h2 {
+  color: blue;
+  text-shadow: 4px 2px 2px skyblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1em;
+  text-indent: 1em;
+}
